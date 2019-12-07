@@ -80,24 +80,24 @@ div.container {
     border: 1px solid gray;
 }
 
-body { 
+body {
 /*	background-image: url("http://192.168.1.13/images/background.jpg");*/
 	background-image: url("//www.cps-ecp.ca/wsimages/background.jpg");
 	background-size: 100%;
 	background-repeat:no-repeat;
 }
 
-.fancyfont1 { 
+.fancyfont1 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 16px;
 }
-.fancyfont2 { 
+.fancyfont2 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 14px;
 }
 .fancyfont3 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 12px;    
+	font-size: 12px;
 }
 
 .headerimg {
@@ -140,7 +140,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-   
+
 nav ul a {
     text-decoration: none;
 }
@@ -280,7 +280,7 @@ ul.tabcourse li a:focus, .active {
 }
 
 .coverimg {
-    float:right; 
+    float:right;
     padding-right: 10px;
 }
 
@@ -302,7 +302,7 @@ ul.tabcourse li a:focus, .active {
     background-color: #99FFFF;
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding: 5px 15px; 
+    padding: 5px 15px;
 }
 
 .breaking_news {
@@ -335,7 +335,7 @@ ul.tabcourse li a:focus, .active {
 }
 .w100m500 {
 	max-width: 500px;
-    width: 100%;   
+    width: 100%;
 }
 /* toonie tuesday */
 .tt_completed {
@@ -646,4 +646,26 @@ div.cc_container h4 {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.course_collapsible {
+    background-color:inherit;
+    color: black;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.course_collapsible:hover {
+    background-color: lightgrey;
+}
+
+.course_collapsible_content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: lightgrey;
 }
