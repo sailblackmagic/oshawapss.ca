@@ -569,7 +569,6 @@
 			<!-- MAA collapsible-->
 			<div id="boating1" class="coursecontent">
 				<h2 class="coursetitle"> Boating 1: Boating Basics (PCOC) </h2>
-
 				<img class="coverimg" alt="" src="https://www.cps-ecp.ca/moodle/local/coursefields/pluginfile.php/24/course/imageurl/PCOC-hand-IMG_1967-med.jpg?offline=1" width="300" />
 				<p>
 					Formally part of the Boating Course
@@ -642,7 +641,6 @@
 			</div>
 			<div id="youth" class="coursecontent">
 				<h2 class="coursetitle"> PCOC for Youth </h2>
-
 				<img class="coverimg" alt="" src="https://www.cps-ecp.ca/moodle/local/coursefields/pluginfile.php/215/course/imageurl/youth_evans.jpg?offline=1" width="300" />
 				<p>
 					The Operator Card seminar, ages 8-12.
@@ -1329,17 +1327,17 @@
 	</div>
 	<!-- MAA collapsible -->
 	<script>
-		var coll = document.getElementsByClassName("course_collapsible");
-		var i;
+		var course_coll = document.getElementsByClassName("course_collapsible");
+		var course_coll_i;
 
-		for (i = 0; i < coll.length; i++) {
-			coll[i].addEventListener("click", function() {
+		for (course_coll_i = 0; course_coll_i < course_coll.length; course_coll_i++) {
+			course_coll[course_coll_i].addEventListener("click", function() {
 				this.classList.toggle("active");
-				var content = this.nextElementSibling;
-				if (content.style.display === "block") {
-					content.style.display = "none";
+				var course_coll_content = this.nextElementSibling;
+				if (course_coll_content.style.display === "block") {
+					course_coll_content.style.display = "none";
 				} else {
-					content.style.display = "block";
+					course_coll_content.style.display = "block";
 				}
 			});
 		}
