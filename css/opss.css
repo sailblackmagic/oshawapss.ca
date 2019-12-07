@@ -282,6 +282,8 @@ ul.tabcourse li a:focus, .active {
 .coverimg {
     float:right;
     padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .centertext {
